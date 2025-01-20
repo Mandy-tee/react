@@ -17,11 +17,25 @@ import './appStyles.css'
 import styles from './appStyles.modules.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+      <FRParentInput />
+      {/* <FocusInput /> */}
+      {/* <RefsDemo /> */}
+      {/* <ParentComp /> */}
+      {/* <PureComp /> */}
+      {/* <Table /> */}
+      {/* <FragmentDemo /> */}
+      {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
